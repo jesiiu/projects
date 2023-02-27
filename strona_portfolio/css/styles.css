@@ -1,0 +1,647 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height: 100%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    position: relative;
+}
+.content{
+    width: 100%;
+    height: max-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+#header{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    text-align: right;
+}
+
+.home_button{
+    text-decoration: none;
+    color: black;
+}
+.contact_button{
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 16px;
+    color: black
+}
+.icon{
+    display: flex;
+    text-align: left;
+    margin-right: 5px;
+}
+
+li{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin: 10px;
+    margin-right: 1.5rem;
+}
+.name{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+.main_content{
+    width: 100%;
+    height: 100%;
+}
+.s1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.hello_text{
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    color: white;
+    float: left;
+    word-wrap: break-word;
+    margin: 20px;
+    font-size: 24px;
+}
+.icons_div{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 10px;
+    position: relative;
+    float: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.bg_ico_fb, .bg_ico_ln, .bg_ico_gh, .bg_ico_ig{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.social_icons{
+    position: relative;
+    margin: 7px;
+    transition: 0.5s;
+}
+.bg_ico_fb:hover{
+    background-color: #2050b1;
+}
+.bg_ico_ig:hover{
+    background-color: orange;
+}
+.bg_ico_ln:hover{
+    background-color: #07b9ff;
+}
+.bg_ico_gh:hover{
+    background-color: gray;
+}
+.cv_button_div{
+    width: 8rem;
+    height: 38px;
+}
+.cv_button{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px 20px 20px 20px;
+    border-width: 2px;
+    transition: 0.5s;
+}
+.cv_button:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.s1_div_left{
+    width: 35%;
+    height: 100%;
+    display: block;
+    background-color: transparent;
+    margin-right: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.s21_left_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    color:white;
+    float: left;
+
+    flex-direction: column;
+    margin: 1rem;
+}
+.s1_div_right{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url("..\\img\\gradient.jpeg");
+    background-size: cover;
+}
+.s2{
+    width: 100%;
+    height: max-content;
+    margin-top: 10px;
+    position: relative;
+}
+.outside_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+}
+.s21_div_left{
+    width: 49%;
+    height: auto;
+    display: flex;
+    position: relative;
+    background-color: black;
+    margin-right: 10px;
+    background-image: url("..\\img\\csahp.png");
+    background-size: 125%;
+    background-repeat: repeat;
+    background-position: left;
+    border-radius: 20px 20px 20px 20px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1.5s ease-in-out
+}
+
+.csharp_list, .py_list, .sql_list, .others_list{
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+.cs{
+    width: 100%;
+    color: white;
+    list-style: disc;
+    float: left !important;
+    margin-right: 0 !important;
+}
+.py, .sql, .others{
+    width: 100%;
+    color: white;
+    list-style: disc;
+    float: left !important;
+    margin-right: 0 !important;
+}
+.csharp_list li:last-of-type, .py_list li:last-of-type, .sql_list li:last-of-type, .others_list li:last-of-type{
+    list-style: none;
+}
+.s21_left_icon{
+    display: block;
+    position: relative;
+    margin: 1rem;
+}
+.s21_right_icon{
+    display: block;
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+.s22_left_icon{
+    display: block;
+    position: relative;
+    margin: 1rem;
+}
+.s22_right_icon{
+    display: block;
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+.s2_logo{
+    max-width: 30%;
+    max-height: 50%;
+}
+.profilowe{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.s21_div_right{
+    width: 49%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    background-image: url("..\\img\\finalpy.png");
+    background-size: 130%;
+    background-repeat: repeat;
+    background-position: left;
+    border-radius: 20px 20px 20px 20px;
+    -moz-transition: all .1s;
+    -webkit-transition: all 1s;
+    transition: all 1.5s ease-in-out
+}
+.s21_div_left:hover, .s21_div_right:hover, .s22_div_left:hover, .s22_div_right:hover{
+    background-size: 150%;
+}
+.gradient_div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.top_gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+}
+.s22_div_left{
+    width: 49%;
+    height: auto;
+    display: flex;
+    background-image: url("..\\img\\sqlfinal.png");
+    background-size: 135%;
+    background-repeat: repeat;
+    background-position: left;
+    margin-right: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1.5s ease-in-out
+}
+
+.s22_div_right{
+    width: 49%;
+    height: auto;
+    display: flex;
+    background-image: url("..\\img\\gradient_rest2.jpeg");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: left;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1.5s ease-in-out
+}
+.pb{
+    width: 75%;
+    height: 1.5rem;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.footer_div{
+    width: 100%;
+    height: max-content;
+    display: block;
+    background-image: url("..\\img\\footer.jpeg");
+    background-size: 130%;
+    border-radius: 20px 20px 20px 20px;
+}
+.contact_text{
+    width: 80%;
+    height: max-content;
+    margin: 20px;
+    color: black;
+    font-size: 22px;
+    word-wrap: break-word;
+}
+.icons_footer{
+    width: 100%;
+    height: max-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media(min-width:1520px){
+    .content{
+        width: 100%;
+        height: max-content;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+    .s2{
+        max-height: max-content;
+    }
+    .s2_logo{
+        scale: 0.7;
+    }
+}
+@media(min-width:985px){
+    .s2_logo{
+        scale:0.7;
+    }
+}
+@media(max-width:984px){
+    .content{
+        width: 100%;
+        height: max-content;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .outside_box{
+        height: 100%;
+        align-content: baseline;
+    }
+    .s1{
+        display: inline-block;
+    }
+    .s1_div_left{
+        width: 100%;
+        height: 70%;
+        display: block;
+        background-color: transparent;
+        margin-right: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .s1_div_right{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+        background-image: url("..\\img\\gradient.jpeg");
+        background-size: cover;
+        margin-top: 10px;
+    }
+    .s2{
+        height: max-content;
+    }
+    .s21_div_left{
+        width: 49%;
+        height: auto;
+        display: flex;
+        background-color: black;
+        margin-right: 0 !important;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px !important;
+    }
+    .s21_div_right{
+        width: 49%;
+        height: auto;
+        display: flex;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px;
+    }
+    .s22_div_left{
+        width: 49%;
+        height: auto;
+        display: flex;
+        background-color: black;
+        margin-right: 0 !important;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .s22_div_right{
+        width: 49%;
+        height: auto;
+        display: flex;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .cs, .py, .sql, .others{
+        font-size: 24px;
+    }
+    .cs:last-child{
+        margin-bottom: 10px;
+    }
+    .social_icons{
+        width: 32px;
+        height: 32px;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    .bg_ico_fb, .bg_ico_ln, .bg_ico_gh, .bg_ico_ig{
+        width: 48px;
+        height: 48px;
+    }
+    .s21_right_icon, .s21_left_icon{
+        width: 100%;
+    }
+    .s2_logo{
+        scale: 0.7;
+        padding: 20px;
+    }
+    .cv_button_div{
+        height: 48px;
+        width: 8rem;
+    }
+    .hello_text{
+        width: 90%;
+    }
+    .icons_footer{
+        justify-content: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}
+
+@media(max-width: 768px){
+    .content{
+        width: 100%;
+        height: max-content;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+    .s1{
+        height: 650px;
+    }
+    .s2{
+        height: max-content;
+    }
+    .cs, .py, .sql, .others{
+        font-size: 24px;
+    }
+    .csharp_list{
+        padding-bottom: 20px;
+    }
+    .s2_logo{
+        scale: 0.7;
+        padding: 20px;
+    }
+    .s21_div_right, .s21_div_left, .s22_div_left, .s22_div_right{
+        width: 100%;
+        height: max-content;
+    }
+    .cv_button_div{
+        height: 48px;
+        width: 8rem;
+    }
+    .hello_text{
+        width: 80%;
+    }
+    .footer_div{
+        padding-bottom: 5vh;
+    }
+    
+}
+
+@media(max-width: 564px){
+    .content{
+        width: 100%;
+        height: max-content;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .s1{
+        height: 700px;
+        display: inline-block;
+    }
+    .s2{
+        height: max-content;
+    }
+    .s1_div_left{
+        width: 100%;
+        height: 70%;
+        display: block;
+        background-color: transparent;
+        margin-right: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .s1_div_right{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+        background-size: cover;
+        margin-top: 10px;
+    }
+    .s21_div_right{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px;
+    }
+    .s21_div_left{
+        margin-top: 20px;
+        height: max-content;
+    }
+    .s21_div_right, .s21_div_left, .s22_div_left, .s22_div_right{
+        width: 100%;
+        height: max-content;
+    }
+    .cs, .py, .sql, .others{
+        font-size: 18px;
+    }
+    .footer{
+        margin-top: 3rem;
+    }
+    .bg_ico_fb, .bg_ico_ln, .bg_ico_gh, .bg_ico_ig{
+        width: 40px;
+        height: 40px;
+    }
+    .social_icons{
+        width: 28px;
+        height: 28px;
+        margin: 6px;  
+    }
+    .cv_button_div{
+        height: 40px;
+        width: 5rem;
+    }
+    .icons_div{
+        justify-content: center;
+    }
+    .hello_text{
+        width: 80%;
+    }
+    .s21_div_left, .s21_div_right, .s22_div_left, .s22_div_right{
+        pointer-events: none;
+    }
+    .s21_div_left.active, .s21_div_right.active, .s22_div_left.active, .s22_div_right.active{
+        background-size: 170%;
+    }
+}
+@media(max-width: 476px){
+    .s1{
+        height: 860px;
+    }
+}
+@media(max-width: 374px){
+    .content{
+        width: 100%;
+        height: max-content;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+    .hello_text{
+        width: 80%;
+    }
+    .s1{
+        height: 1000px;
+    }
+    .s2{
+        height: max-content;
+    }
+    .bg_ico_fb, .bg_ico_ln, .bg_ico_gh, .bg_ico_ig{
+        width: 28px;
+        height: 28px;
+    }
+    .social_icons{
+        width: 18px;
+        height: 18px;
+        margin: 5px;
+        
+    }
+    .cv_button_div{
+        height: 28px;
+        width: 5rem;
+    }
+    .icons_div{
+        justify-content: center;
+    }
+}
